@@ -4,16 +4,16 @@
 
 **cd with no argument**
 
-![Image](cd_NoArgument.png) 
+![Image](CDwithoutArgumentNew.png) 
 
-> The working directory was home and when I entered the cd command with no argument nothing happened because the cd command is used to change the working directory; however, in order to do that it needs to have a directory listed as an argument otherwise it will do nothing.
+> The working directory was /home/lecture and when I entered the cd command with no argument the directory went back to just /home because the cd command is used to change the working directory and when no argument is entered it defaults to going back to the previous directory. This is not an error.
 
 
 **cd with a directory as an argument**
 
 ![image](cd_ArgumentDirectory.png)
 
-> The working directory was /home and when I entered the command cd with the directory lecture1 listed as an argument it changed the working directory to /home/lecture1. This is because cd is used to change the working directory.
+> The working directory was /home and when I entered the command cd with the directory lecture1 listed as an argument it changed the working directory to /home/lecture1. This is because cd is used to change the working directory. It is not an error and it is what it is designed to do.
 
 **cd with a file as an argument**
 
@@ -41,7 +41,7 @@
 
 ![image](ls_ArgumentFile.png)
 
-> The working directory was /home/lecture1 and when the file Hello.java was entered as an argument it returned the name of the file because it is the only thing that could be in a path file. Due to path files not containing paths for other files or directories.
+> The working directory was /home/lecture1 and when the file Hello.java was entered as an argument it returned the name of the file because it is the only thing that could be in a path file. Due to path files not containing paths for other files or directories. This is not an error.
 
 ---
 
