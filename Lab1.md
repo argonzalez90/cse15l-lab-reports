@@ -49,9 +49,9 @@
 
 **cat with no argument**
 
-![image](cat_NoArgument.png)
+![image](catWithNoArgument.png)
 
-> The working directory was /home and when the cat command was entered with no argument nothing was returned because the cat command reads out whatever is in the file that it is fed as an argument and due to being given nothing it returned nothing.
+> The working directory was /home and when the cat command was entered with no argument nothing was returned because the cat command reads out whatever is in the file that it is fed as an argument and due to being given nothing it returned nothing. Once I typed in my name it responded my name because it is supposed to read out whatever it is given and it did. This is not an error.
 
 **cat with a directory as an argument**
 
